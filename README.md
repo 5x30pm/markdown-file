@@ -1,7 +1,6 @@
 # 📘 Markdown Notes (Quick Guide)
 
 ---
-
 # 01. Headings
 
 ```
@@ -28,7 +27,7 @@
 ###### Heading 6
 
 <br><br>
-
+---
 # 02. Text Styling
 
 ```
@@ -100,11 +99,16 @@ use html img tag for resizing height & width
 ```
 ### 👉 Output:
   \<img src="#" alt="img.png">
-## B. Block code
-<img width="441" height="254" alt="img" src="https://github.com/user-attachments/assets/d629534c-050f-4aec-ae95-1ce0078e06d6" />
-<br>
+## B. Block code  
+first write the (\```) then write language name of code  
+now write code and give (\```) in last  
 
-### 👉 Output:
+Like this:  
+
+  \```python  
+  print("hello world")  
+  \```
+  ### 👉 Output:
 
 print("hello World") 
 
@@ -218,7 +222,7 @@ You have to use html. like this
    
 <br><br>
 
-# 13. Highlight text
+# 13. Highlight text (work in some cases)
 
 ```
 ==Highlighted text==
