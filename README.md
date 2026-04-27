@@ -1,6 +1,7 @@
 # 📘 Markdown Notes (Quick Guide)
 
 ---
+
 # 01. Headings
 
 ```
@@ -26,8 +27,8 @@
 
 ###### Heading 6
 
-<br><br>
----
+## <br><br>
+
 # 02. Text Styling
 
 ```
@@ -75,6 +76,7 @@ _Italic text_ <br>
    <br><br>
 
 # 04. Links & Images
+
 use html img tag for resizing height & width
 
 ```
@@ -97,21 +99,25 @@ use html img tag for resizing height & width
 ```
 `<img src="#" alt="img.png">`
 ```
+
 ### 👉 Output:
-  \<img src="#" alt="img.png">
-## B. Block code  
+
+\<img src="#" alt="img.png">
+
+## B. Block code
+
 first write the (\```) then write language name of code  
-now write code and give (\```) in last  
+now write code and give (\```) in last
 
-Like this:  
+Like this:
 
-  \```python  
-  print("hello world")  
-  \```
-  ### 👉 Output:
+\```python  
+ print("hello world")  
+ \```
 
-print("hello World") 
+### 👉 Output:
 
+print("hello World")
 
 <br><br>
 
@@ -290,6 +296,5 @@ Hidden content here
 
 :smile: :rocket: :fire:
 <br><br>
-
 
 <p align="right">Thanks for visiting Markdown blog &hearts;</p>
