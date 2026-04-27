@@ -81,14 +81,14 @@ use html img tag for resizing height & width
 ```
 [Google](https://google.com)
 
-![Image](https://avatars.githubusercontent.com/5x30pm/4)
+![Image](https://avatars.githubusercontent.com/5x30pm)
 ```
 
 ### 👉 Output:
 
 [Google](https://google.com)
 
-![Image](https://avatars.githubusercontent.com/5x30pm/4)
+<img src="https://avatars.githubusercontent.com/5x30pm" height="50px" width="50px">
 <br><br>
 
 # 05. Code
@@ -98,13 +98,15 @@ use html img tag for resizing height & width
 ```
 `<img src="#" alt="img.png">`
 ```
-
+### 👉 Output:
+  \<img src="#" alt="img.png">
 ## B. Block code
 <img width="441" height="254" alt="img" src="https://github.com/user-attachments/assets/d629534c-050f-4aec-ae95-1ce0078e06d6" />
 <br>
-~~~
+
+### 👉 Output:
+
 print("hello World") 
-~~~
 
 
 <br><br>
